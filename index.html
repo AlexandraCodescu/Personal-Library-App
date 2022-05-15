@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Biblioteca virtuala</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+   </head>
+   <body>
+      <header>
+         <h1>Biblioteca ta virtuala</h1>
+         <nav>
+           <ul>
+             <li><a href="index.html">Acasa</a></li>
+             <li><a href="#books-list">Lista de carti</a></li>
+             <li><a href="#book-add">Adauga carte</a></li>
+             <li><a href="favorite-book.html">Cartea favorita</a></li>
+           </ul>
+         </nav>
+      </header>
+      <main class="container">
+         <img src="/images/books.jpg" width=700>
+         <div class="book-create" id="book-add">
+            <h2>Adauga carte noua</h2>
+            <input type="text" id="title-input" placeholder="Titlul cartii">
+            <input type="text" id="author-input" placeholder="Autorul cartii">
+            <input type="number" id="price-input" placeholder="Pretul cartii">
+            <input type="date" id="date-input" placeholder="Data cumpararii">
+            <button type="button" id="create-button">Adauga cartea</button> 
+         </div>
+         <div id="books-list">
+            <h2>Lista ta de carti</h2>
+            <table>
+               <thead>
+                  <tr>
+                     <th>Titlu</th>
+                     <th>Autor</th>
+                     <th>Pret</th>
+                     <th>Data cumpararii</th>
+                  </tr>
+               </thead>
+               <tbody id="books-table-body">
+                  <tr>
+                     <td>The Great Gatsby</td>
+                     <td>F. Scott Fitzgerald</td>
+                     <td>100</td>
+                     <td>2021-01-15</td>
+                  </tr>
+               </tbody>
+            </table>
+           <h3>Ai cheltuit urmatoarea suma pe carti: </h3>
+           <span id="total-price"> </span><span> RON</span>
+         </div>
+      </main>
+      <footer>
+         <h3> Acest website a fost realizat de JustCodeIT</h3>
+      </footer>
+      <script src="script.js"></script>
+   </body>
+</html>

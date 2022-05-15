@@ -1,0 +1,107 @@
+body {
+  font-family: Roboto, sans-serif;
+  background: #3a86ff;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+img {
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+nav {
+  background: #023e8a;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  padding: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.book-create {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.book-create input {
+  display: block;
+  margin: auto;
+  width: 70%;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid rgb(175, 175, 175);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.book-create button {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  border: none;
+  font-size: 22px;
+  font-weight: 500;
+  background: #023e8a;
+  color: #fff;
+  border-radius: 4px;
+}
+
+h2 {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 36px;
+}
+
+table {
+  margin-top: 30px;
+  width: 100%;
+}
+
+tr {
+  background: #023e8a;
+}
+
+th {
+  font-size: 24px;
+}
+
+td {
+  font-size: 18px;
+}
+
+.book-details {
+  background: #023e8a;
+}
+
+footer {
+  margin-top: 70px;
+  border-top: 2px solid #023e8a;
+  color: #023e8a;
+}
+
+header {
+  margin-bottom: 20px;
+  color: white;
+}
